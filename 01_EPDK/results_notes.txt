@@ -1,0 +1,23 @@
+SDG7 – EPDK dated rate snapshot, illustrative cost and load shifting
+EPDK effective date: 2026-04-04; 2026 rates mapped to 2010 French consumption.
+Modern Turkish meter hour periods: 06-17 day / 17-22 peak / 22-06 night.
+Energy prices (TL/kWh): {'Gunduz': 1.95064, 'Puant': 3.747551, 'Gece': 0.513656}
+Distribution (TL/kWh): 2.4249; tax assumptions: ETV 5%, VAT 10%.
+Sensitive/regulated pricing cases (SKTT, other suppliers) not supported.
+SHIFT: fraction of entire predicted peak-hour load assumed flexible; capped to 2 kWh/day and spread equally over 22:00 and 23:00. Not appliance-level measurements.
+These are 216 selected complete evaluation days, NOT 216 consecutive billing days.
+Forecast errors are in kWh, cost results are TL, and simulated changes are NOT empirically measured savings.
+
+FORECAST METRICS
+                mae_kwh  rmse_kwh
+Previous day   0.513375  0.766157
+Previous week  0.554586  0.804713
+Random Forest  0.420518  0.582746
+
+SENSITIVITY SCENARIOS
+                days  consumption_kwh  shifted_kwh  baseline_tl  scheduled_tl  saved_tl  saved_pct
+scenario_share                                                                                    
+0.0              216         5315.831        0.000    27412.526     27412.526     0.000      0.000
+0.1              216         5315.831      149.699    27412.526     26853.378   559.148      2.040
+0.2              216         5315.831      297.346    27412.526     26301.896  1110.631      4.052
+0.3              216         5315.831      386.955    27412.526     25967.194  1445.333      5.273

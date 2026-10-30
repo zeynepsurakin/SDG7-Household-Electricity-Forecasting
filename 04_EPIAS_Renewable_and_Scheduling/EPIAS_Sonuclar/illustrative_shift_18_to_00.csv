@@ -1,0 +1,2 @@
+scenario,load_kwh,original_start,original_end,proposed_start,proposed_end,historical_source_share_original_pct,historical_source_share_proposed_pct,historical_source_share_difference_pp,tariff_snapshot,energy_only_original_tl,energy_only_proposed_tl,energy_only_difference_tl,full_bill_difference_verified
+Illustrative two-hour appliance load; NOT verified appliance-level data,1.2,18:00,20:00,next day 00:00,next day 02:00,49.1698008409691,51.28596299623201,2.1161621552629057,2026-04-04 EPDK (from CSV),4.4970612,0.6163872,3.880674,False

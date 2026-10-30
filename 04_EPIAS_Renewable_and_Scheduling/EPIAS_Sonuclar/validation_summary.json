@@ -1,0 +1,17 @@
+{
+  "raw_rows": 103622,
+  "raw_min_date": "2014-11-13",
+  "raw_max_date": "2026-10-30",
+  "selected_first_date": "2026-09-30",
+  "selected_last_date": "2026-10-29",
+  "selected_complete_days": 30,
+  "selected_hour_rows": 720,
+  "selected_raw_total_source_sum_mean_residual_pct": 1.3938,
+  "selected_raw_total_source_sum_max_abs_residual_pct": 4.9622,
+  "selected_renewable_weighted_pct": 50.0551,
+  "selected_renewable_average_hourly_pct": 50.0901,
+  "max_hour": 0,
+  "max_hour_share_pct": 51.3797,
+  "min_hour": 21,
+  "min_hour_share_pct": 48.6395
+}

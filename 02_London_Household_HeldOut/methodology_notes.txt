@@ -1,0 +1,12 @@
+London Smart Meters — held-out homes + chronological split
+Input filename: LCL-June2015v2_0.csv
+Eligible homes (min 75 days of valid hourly data): 12
+Train homes: ['MAC000019', 'MAC000020', 'MAC000021', 'MAC000022', 'MAC000027', 'MAC000029', 'MAC000030', 'MAC000032', 'MAC000034']
+Never-seen test homes: ['MAC000018', 'MAC000023', 'MAC000033']
+Time cutoff: 2013-09-19 00:00:00
+Training observations: 135956; test observations: 11495
+Target: hourly kWh. Features use history from previous day or earlier.
+A strict group/time split is used: test homes not seen in training, test dates later.
+No weather features in this step. Weather is a separate optional later step.
+This is a London dataset: do not claim these are real Turkish homes.
+London and prior French single-home MAEs are not directly comparable due to different homes/splits.

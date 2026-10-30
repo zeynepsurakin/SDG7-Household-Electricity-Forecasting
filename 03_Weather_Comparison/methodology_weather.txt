@@ -1,0 +1,13 @@
+Step 4 - historical weather ablation, London
+Smart-meter source: LCL-June2015v2_0.csv
+Weather source: weather_hourly_darksky_30minutes.csv
+Training households: ['MAC000019', 'MAC000020', 'MAC000021', 'MAC000022', 'MAC000027', 'MAC000029', 'MAC000030', 'MAC000032', 'MAC000034']
+Never-seen test households: ['MAC000018', 'MAC000023', 'MAC000033']
+Chronological cutoff: 2013-09-19 00:00:00
+Training rows: 135839; test rows: 11495
+Weather variables used (24-hour lag): ['temperature', 'apparentTemperature', 'humidity', 'windSpeed', 'pressure']
+Rows with historical features before weather merge: 226414; rows after weather merge: 226258
+Models evaluated on exactly the same rows; no household ID feature; no realized weather from forecast day.
+MAE improvement from weather: -1.465% (negative means worse).
+The weather file is a republished/processed historical London weather file; check provenance.
+This is a lagged-weather test, NOT a test with next-day weather forecasts.

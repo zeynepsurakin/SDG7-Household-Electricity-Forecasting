@@ -1,0 +1,9 @@
+SDG7 TESLİM CHECKLIST
+[ ] Mevcut GitHub projesi korunur.
+[ ] README_TR.md ve metodoloji notları eklenir.
+[ ] EPDK tarifesi tarihi, EPDK perakende / EPİAŞ PTF ayrımı yazılır.
+[ ] London model gerçek 3 unseen test household olarak yazılır.
+[ ] Hava durumu sonucu kötüleşme olarak dürüstçe gösterilir.
+[ ] Yenilenebilir payı tarihi olduğu ve CO2 hesaplanmadığı belirtilir.
+[ ] Şift simülasyonları ölçülmüş tasarruf gibi sunulmaz.
+[ ] ZIP değil, klasörler GitHub’a yüklenir (isteğe bağlı).
